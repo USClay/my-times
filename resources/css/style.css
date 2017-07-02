@@ -2,6 +2,7 @@ header {
   display: flex;
   position: fixed;
   width: 100%;
+  height: 80px;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -9,6 +10,8 @@ header {
   padding: 10px;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -42,4 +45,39 @@ nav span {
 #logo-text {
   color: MediumAquamarine
 
+}
+
+.main {
+  border: 1px solid black;
+  display: flex;
+  width: 1232px;
+  padding-top: 116px;
+  margin: 0 auto 78px auto;
+}
+
+.column {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.stories {
+  border: 1px solid black;
+}
+
+div {
+  border: 1px solid black;
 }
